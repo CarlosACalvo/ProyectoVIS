@@ -1,4 +1,4 @@
-# ProyectoVIS
+# Realidad-Minas-Anti-Persona
 Este sitio presenta descubrimientos realizados a partir del análisis de datos recopilados en 2017 sobre accidentes reportados en todo el país con minas anti-personas.
 <h3>Objetivos</h3>
 ...pendiente...
@@ -11,6 +11,6 @@ Este sitio presenta descubrimientos realizados a partir del análisis de datos r
 <img width=80% height=50% src="screenshot.jpg">
 <a href=https://carlosacalvo.github.io/Realidad-Minas-Anti-Persona/>Ver proyecto</a>
 <h3>Licencia</h3>
-Licenciado bajo los términos de <a href=>MIT</a>
+Licenciado bajo los términos de <a href="LICENCE">MIT</a>
 <h3>Autor</h3>
 <a href=https://carlosacalvo.github.io>Carlos Andres Calvo Garcia</a>
