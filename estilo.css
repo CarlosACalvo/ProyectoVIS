@@ -2,10 +2,14 @@ body
 {font: sans-serif;}
 
 #Titulo
-{font-weight: bolder;font-size: 20;align-content: center;width: 100%;position: relative; color: #D3d3d3; background-color: green;}
+{align-content: center;width: 100%;position: relative; color: #D3d3d3; background-color: lightblue;}
+
+h3
+{font-weight: bolder;font-size: 20;text-align: center;text-shadow: 2px 2px 2px grey;}
 
 div.VisPpal
-{width: 100%;position: relative;align-content: center;padding-left: 10%;padding-right: 10%; background-color: grey;}
+{width: 100%;position: absolute;align-content: center;margin-left: 10%; background-color: grey;}
 
 #Explica
-{font-size: 12;align-content: left;background-color: red;width: 90%;position: relative; margin-left: 5%;margin-right: 5%;}	
+{font-size: 12;align-content: left;background-color: red;width: 100%;position: relative; padding-left: 5%;padding-right: 5%;
+border: 2px;border-radius: 3px 0px 3px 0px;box-shadow: 3px 3px 3px darkgrey;}	
