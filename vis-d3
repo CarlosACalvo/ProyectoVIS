@@ -17,7 +17,7 @@
  <body>
  	<div id="Contenedor">
  	<div id='Titulo'><h3>Realidad de las Minas Anti-Persona en Colombia</h3></div>
- 	<div id="Explica"><p class="Explica">Aquí es donde se va a explicar con texto lo que se encontró</p>
+ 	<div id="Explica"><p class="Texto">Aquí es donde se va a explicar con texto lo que se encontró</p>
  	</div>
  	<div class='Vis-d3'>
  		Aquí va el contenido D3!
