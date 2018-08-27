@@ -1,13 +1,19 @@
 body
 {font: sans-serif;}
 
+#Contenedor
+{width: 100%;}
+
 #Titulo
 {align-content: center;width: 100%;position: relative;  background-color: lightblue;height: 60px;margin-bottom: 5px;vertical-align: center;
-border: 2px darkblue;border-radius: 10px 10px 0px 0px;box-shadow: 3px 3px 3px darkgrey;padding-top: 4px;}
+border: 2px darkblue;border-radius: 10px 10px 0px 0px;box-shadow: 3px 3px 3px darkgrey;}
+
+h2
+{font-family: "Verdana";font-weight: bolder;color: darkgray;text-align: left;}
 
 h3
 {font-family: "Verdana";font-weight: bolder;font-size: 28;text-align: center;text-shadow: 2px 2px 2px grey;color: #2e6194;font-style: italic;
-vertical-align: center;}
+vertical-align: center;padding-top: 4px;}
 
 div.Vis-tab
 {width: 100%;position: relative;align-content: center;padding-left: 5%;padding-right: 5%; background-color: grey;margin-top: 5px;}
@@ -15,17 +21,20 @@ div.Vis-tab
 div.Vis-d3
 {width: 100%;position: relative;align-content: center;padding-left: 5%;padding-right: 5%; background-color: #000;margin-top: 5px;}
 
+#Botonera
+{width: 100%;position: relative;height: 100px;display: inline-block;border-color: red;border: 3px;}
+
 div.boton
 {border:2px;border-color: darkblue;border-radius: 5px;box-shadow: 2px 2px 3px lightgrey;padding: 3px;}
 
 #Explica
-{align-content: left;background-color: #ccc;width: 100%;position: absolute; padding-left: 1%;padding-right: 5%;
+{align-content: left;background-color: #d1d1d1;width: 100%;position: absolute; padding-left: 5px;padding-right: 5px;
 height: 60px;}
 .Explica
 {font-family: "Verdana";font-size: 12;}	
 
 #Pie
-{width: 100%;position: relative;height: 25px;margin-top: 5px;}
+{width: 100%;position: relative;height: 25px;margin-top: 5px;background-color: #f4f4f4;}
 
 p.Pie
-{font-family: "Verdana";font-weight: bold;text-align: center;font-size: 9px;}
+{font-family: "Verdana";font-weight: bold;text-align: center;font-size: 9px;padding-top: 5px;}
