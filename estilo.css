@@ -2,7 +2,7 @@ body
 {font: sans-serif;}
 
 #Contenedor
-{width: 100%;}
+{width: 100%;display: inline;}
 
 #Titulo
 {align-content: center;width: 100%;position: relative;  background-color: lightblue;height: 60px;margin-bottom: 5px;vertical-align: center;
@@ -22,16 +22,18 @@ div.Vis-d3
 {width: 100%;position: relative;align-content: center;padding-left: 5%;padding-right: 5%; background-color: #000;margin-top: 5px;}
 
 #Botonera
-{width: 100%;position: relative;height: 100px;border-color: red;border: 3px;background-color: yellow;}
+{width: 100%;position: relative;height: 100px;border-color: red;border: 3px;background-color: yellow;align-content: center;}
 
 div.boton
-{border:2px;border-color: darkblue;border-radius: 5px;box-shadow: 2px 2px 3px lightgrey;padding: 3px;background-color: green;
-	display: inline-block;width: 100px;height: 100px;}
+{border:2px;border-color: darkblue;border-radius: 5px;padding: 3px;background-color: green;box-shadow: 2px 2px 3px lightgrey;
+	display: inline-block;width: 100px;height: 100px;align-content: center;}
+div.boton:hover
+{box-shadow: 4px 4px 6px grey;}
 
 #Explica
 {align-content: left;background-color: #d1d1d1;width: 100%;position: relative; 
 height: 60px;}
-.Texto
+p.Texto
 {font-family: "Verdana";font-size: 12;}	
 
 #Pie
