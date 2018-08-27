@@ -2,4 +2,10 @@ body
 {font: sans-serif;}
 
 div.Titulo
-{font-weight: bolder;font-size: 14;align-content: center;}
+{font-weight: bolder;font-size: 20;align-content: center;width: 100%;position: relative; color: #D3d3d3; }
+
+div.VisPpal
+{width: 100%;position: relative;align-content: center;padding-left: 10%;padding-right: 10%;}
+
+div.Explica
+{font-size: 12;align-content: left;background-color: #cccccc;width: 90%;position: relative; margin-left: 5%;margin-right: 5%;}
