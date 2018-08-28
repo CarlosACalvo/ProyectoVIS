@@ -14,4 +14,5 @@ Las tecnologías usadas para este estudio no requieren de ningún tipo de instal
 <h3>Licencia</h3>
 Licenciado bajo los términos de <a href="LICENCE">MIT</a>
 <h3>Autor</h3>
+<div><img src="FotoCACG.jpg" width=80 height=120 style="border:3px; border-color:#000;"></div>
 <a href=https://carlosacalvo.github.io>Carlos Andres Calvo Garcia</a>
