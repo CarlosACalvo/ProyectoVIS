@@ -13,17 +13,81 @@
  <title>Data Visualization Seminar's Project</title>
  <!--<script src="js/jquery.min.js"></script>-->
  <script type="text/javascript">
- 	function Sgte()
- 	{alert "Algo";}
+ 	window.onload = function(){
+    document.getElementById("V1").style.display='block';
+    document.getElementById("V2").style.display='none';
+    document.getElementById("V3").style.display='none';
+    document.getElementById("V4").style.display='none';
+    document.getElementById("V5").style.display='none';
+    document.getElementById("V6").style.display='none';
+  }
+
+function Sgte()
+{   var vista1 = document.getElementById("V1");
+    var vista2 = document.getElementById("V2");
+    var vista3 = document.getElementById("V3");
+    var vista4 = document.getElementById("V4");
+    var vista5 = document.getElementById("V5");
+    var vista6 = document.getElementById("V6");
+    if(vista1.style.display=='block')
+    {
+      vista1.style.display='none';   
+      vista2.style.display='block';  
+    }
+    else 
+    {
+     if(vista2.style.display=='block')
+     {vista2.style.display='none';
+      vista3.style.display='block';
+     }
+     else
+     {
+      if(vista3.style.display=='block')
+      {vista3.style.display='none';
+       vista4.style.display='block';
+      }
+      else
+      {
+       if(vista4.style.display=='block')
+       {vista4.style.display='none';
+        vista5.style.display='block';
+       }
+       else
+       {
+       	if(vista5.style.display=='block')
+        {vista5.style.display='none';
+         vista6.style.display='block';
+        }
+        else
+        {
+         if(vista6.style.display=='block')
+         {vista6.style.display='none';
+          vista1.style.display='block';
+         }
+        }
+       }
+      }
+     }
+   }
+}
+
+function Atras()
+{alert("Ok");}
  </script>
  </head>
  
  <body>
  	<div id="Contenedor">
- 	<div id='Titulo'><h3>Realidad de las Minas Anti-Persona en Colombia</h3></div>
- 	<div id="Controles"><button onclick="Sgte()"><-- Atrás</button>&nbsp;&nbsp;&nbsp;&nbsp;<button onclick="Sgte()">Siguiente--></button>
+ 	<div id='Titulo'><h2>Realidad de las Minas Anti-Persona en Colombia</h2></div>
+ 	<div id="Controles">
+ 		<button type="button" onclick="Sgte()"><-- Atrás</button>&nbsp;&nbsp;<span style="font-size: 9;font-style: italic;">
+ 			Use estos controles para desplazarse por los textos explicativos asociados a cada una de las vistas de la herramienta.
+ 			&nbsp;&nbsp;</span>
+ 		<button type="button" onclick="Sgte()">Siguiente--></button>
  	</div>
  	<div id="Explica">
+ 		<!-------------------- Vista 1 ------------------>
+ 		<div id="V1">
  		<h4>Vista 1: Dónde mueren más personas por accidentes con MAP?</h4>
  		<p class="Texto">
  			Esta vista nos permite evidenciar los departamentos que más accidentes con MAP han registrado.<br>
@@ -33,6 +97,15 @@
 	 			Estos departamentos son: <b>Chocó, Córdoba, Nariño, Vaupés, Vichada e inclusive Bogotá DC.</b>
 	 		</p>
 	 	</p>
+	 	</div>
+	 	<!-------------------- Vista 2 ------------------>
+	 	<div id="V2">
+	 		Texto 2222222
+	 	</div>
+	 	<!-------------------- Vista 3 ------------------>
+	 	<div id="V3">
+	 		Texto 333333
+	 	</div>
  	</div>
  	<div class='tableauPlaceholder Vis-tab' id='viz1535249819983' style='position: relative'><noscript><a href='#'><img alt='La Realidad de las Minas Anti-Persona ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;Realidad_Minas_AP&#47;Historia1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Realidad_Minas_AP&#47;Historia1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;Realidad_Minas_AP&#47;Historia1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                
  	<script type='text/javascript'>
