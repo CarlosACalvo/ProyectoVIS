@@ -72,7 +72,54 @@ function Sgte()
 }
 
 function Atras()
-{alert("Ok");}
+{
+	var vista1 = document.getElementById("V1");
+    var vista2 = document.getElementById("V2");
+    var vista3 = document.getElementById("V3");
+    var vista4 = document.getElementById("V4");
+    var vista5 = document.getElementById("V5");
+    var vista6 = document.getElementById("V6");
+    if(vista1.style.display=='block')
+    {
+      vista1.style.display='none';   
+      vista6.style.display='block';  
+    }
+    else 
+    {
+     if(vista2.style.display=='block')
+     {vista2.style.display='none';
+      vista1.style.display='block';
+     }
+     else
+     {
+      if(vista3.style.display=='block')
+      {vista3.style.display='none';
+       vista2.style.display='block';
+      }
+      else
+      {
+       if(vista4.style.display=='block')
+       {vista4.style.display='none';
+        vista3.style.display='block';
+       }
+       else
+       {
+       	if(vista5.style.display=='block')
+        {vista5.style.display='none';
+         vista4.style.display='block';
+        }
+        else
+        {
+         if(vista6.style.display=='block')
+         {vista6.style.display='none';
+          vista5.style.display='block';
+         }
+        }
+       }
+      }
+     }
+   }
+}
  </script>
  </head>
  
@@ -100,23 +147,48 @@ function Atras()
 	 	</div>
 	 	<!-------------------- Vista 2 ------------------>
 	 	<div id="V2">
-	 		Texto 2222222
+	 		<h4>Vista 2: Dónde mueren más Civiles por Minas Anti-Personas?</h4>
+	 		<p class="Texto">
+ 				En esta vista nos enfocaremos ahora únicamente en la población civil que ha muerto a causa del fenómeno estudiado; y podremos evidenciar cúales son los departamentos que presentan mayor número de pérdidas humanas.<br>
+ 				Esto nos genera una información importante para <b>Descontamina Colombia</b>, y es cuáles son los departamentos que presentan mayor densidad en cuanto a la siembra de MAP.
+ 			</p>
 	 	</div>
 	 	<!-------------------- Vista 3 ------------------>
 	 	<div id="V3">
-	 		Texto 333333
+	 		<h4>Vista 3: Qué actividad desempeñaban cuando ocurrió el accidente con la MAP?</h4>
+	 		<p class="Texto">
+ 				Esta vista nos permite analizar cuáles son las actividades más peligrosas en cuanto a la cercanía que conllevan con las zonas donde están sembradas las MAP.
+ 				<p class="insight" style="color:red;font-weight: bold;">Insight 2:</p>
+	 			<p class="insight">
+	 				Omitiendo la actividad más frecuentemente registrada: "Pasando, estando cerca", la herramienta nos está evidenciando que la actividad en la cuál más civiles han perdido la vida a causa de las MAP es la "Erradicación manual", lo que nos informa que las zonas que actualmente están sembradas de hoja de coca también están protegidas con minas anti-persona.  <br>Este hecho tiene que hacer actuar al gobierno implementando alguna otra estrategia para la erradicación de estos cultivos que no ponga en riesgo más vidas humanas.
+	 			</p>
+ 			</p>
 	 	</div>
 	 	<!-------------------- Vista 4 ------------------>
 	 	<div id="V4">
-	 		Texto 44444
+	 		<h4>Vista 4: Qué actividad desempeñaban según su rango de edad?</h4>
+	 		<p class="Texto">
+	 			Esta vista profundiza un poco más en la información mostrada por la anterior; esta vez la discrimina según el rango de edad de las víctimas.
+	 			<p class="insight" style="color:red;font-weight: bold;">Insight 3:</p>
+	 			<p class="insight">
+	 				Otra vez omitiendo la actividad más frecuentemente registrada: "Pasando, estando cerca", ahora la herramienta nos está evidenciando que la actividad en la cuál más NIÑOS han perdido la vida a causa de las MAP es: "Jugando".<br>  
+	 				Esto nos permite entender que todavía hay departamentos del país donde existen MAP sembradas cerca de las zonas rurales habitadas o cabeceras municipales, ya que los niños juegan siempre cerca de sus casas.  Este descubrimiento tiene que ser un motivo para cambiar las prioridades en las estrategias de desminado dirigiendo todos los esfuerzos técnicos hacia los departamentos donde se presenta esta situación; éstos son: Cauca, Meta y Nariño.
+	 			</p>
+	 		</p>
 	 	</div>
 	 	<!-------------------- Vista 5 ------------------>
 	 	<div id="V5">
-	 		Texto 5555
+	 		<h4>Vista 5: Departamentos que aún representan gran peligro para nuestros niños</h4>
+	 		<p class="Texto">
+	 			Esta vista es un complemento de la anterior, pues ante del descubrimiento de que los niños corren peligro tan sólo por salir de sus casas a jugar, aquí estamos analizando en cuáles departamentos se ha presentado este tipo de accidentes con niños en mayor cantidad.
+	 		</p>
 	 	</div>
 	 	<!-------------------- Vista 6 ------------------>
 	 	<div id="V6">
-	 		Texto 66666
+	 		<h4>Vista 6: Tableto de Control (Dashboard)</h4>
+	 		<p class="Texto">
+	 			Esta vista es una recopilación interactiva de 4 de las otras vistas, que permite accionar filtros en cada una de ellas para conocer su reflejo en las demás.
+	 		</p>
 	 	</div>
  	</div>
  	<div class='tableauPlaceholder Vis-tab' id='viz1535249819983' style='position: relative'><noscript><a href='#'><img alt='La Realidad de las Minas Anti-Persona ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;Realidad_Minas_AP&#47;Historia1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Realidad_Minas_AP&#47;Historia1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;Realidad_Minas_AP&#47;Historia1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                

@@ -17,13 +17,15 @@
  <body>
  	<div id="Contenedor">
  	<div id='Titulo'><h2>Realidad de las Minas Anti-Persona en Colombia</h2></div>
- 	<div id="Explica"><p class="Texto">Aquí es donde se va a explicar con texto lo que se encontró</p>
+ 	<div id="Explica"><p class="Texto">En esta página se presenta una herramienta análoga a la desarrollada mediante Tableau y con los mismos objetivos y descubrimientos pero creada por medio de la librería D3.js</p>
  	</div>
  	<div class='Vis-d3'>
- 		Aquí va el contenido D3!
+ 		<br><br><br><br><br>
+ 		...Actualmente en construcción...   :)
+ 		<br><br><br><br><br>
  	</div>                
  	
- 	  <!--============================== Hasta acá viene insertado el objeto de Tableau ==============================-->
+ 	  
  	  <div id="Pie"><p class="Pie">Trabajo realizado como proyecto final de la materia Visualización de Datos<br>
  	  			en la Maestría en Ingeniería de Sistemas de la Universidad Tecnológica de Pereira - Agosto/2018</p>
  	  </div>
