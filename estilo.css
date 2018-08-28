@@ -58,3 +58,18 @@ border: 2px darkblue;border-radius: 0px 0px 10px 10px;box-shadow: 3px 3px 3px da
 p.Pie
 {font-family: "Verdana";font-weight: bold;text-align: center;font-size: 9px;padding-top: 5px;}
 
+#Controles
+{width: 100%;background-color: lightblue;height: 10px;}
+
+#V1
+{width: 100%;position: relative;visibility: visible;}
+#V2
+{width: 100%;position: relative;visibility: visible;}
+#V3
+{width: 100%;position: relative;visibility: visible;}
+#V4
+{width: 100%;position: relative;visibility: visible;}
+#V5
+{width: 100%;position: relative;visibility: visible;}
+#V6
+{width: 100%;position: relative;visibility: visible;}
