@@ -58,6 +58,9 @@ border: 2px darkblue;border-radius: 0px 0px 10px 10px;box-shadow: 3px 3px 3px da
 p.Pie
 {font-family: "Verdana";font-weight: bold;text-align: center;font-size: 9px;padding-top: 5px;}
 
+p.Retorno
+{font-family: "Verdana";font-weight: bold;text-align: left;font-size: 11px;padding: 5px;}
+
 #Controles
 {width: 100%;height: 13px;padding: 5px;text-align: center;align-content: center;}
 
