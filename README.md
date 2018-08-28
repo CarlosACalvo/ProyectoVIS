@@ -10,7 +10,7 @@ Las tecnologías usadas para este estudio no requieren de ningún tipo de instal
 </ul>
 <h3>Visualizar Proyecto</h3>
 <a href="https://carlosacalvo.github.io/Realidad-Minas-Anti-Persona"/>
-<img width=80% height=50% src="minas.png">
+<img width=80% height=50% src="minas.png"><br><br>
 Ver proyecto</a>
 <h3>Licencia</h3>
 Licenciado bajo los términos de <a href="LICENCE">MIT</a>
